@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/apps/solid/src/routes/api/auth/twitter/callback.ts",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "vite:esbuild"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import \"isomorphic-fetch\";\nimport { NextApiHandler } from \"next\";\nimport cookie from \"cookie\"\nimport { APIEvent } from \"solid-start\";\n\nimport { getToken } from \"../../../../../util/oauth\";\n\nexport const GET = async ({ params, request }: APIEvent) => {\n  const authCode = new URLSearchParams(request.url).get('code') as string;\n  const redirectUri = \"http://localhost:3000/api/auth/twitter/callback\";\n\n  try {\n    const token = await getToken({ authCode, redirectUri });\n\n    return new Response(\"{}\", {\n      status: 302, headers: {\n        'Location': '/',\n        'Set-Cookie': cookie.serialize(\n          \"token\",\n          JSON.stringify({\n            value: token.access_token,\n            expiresAt: new Date(Date.now() + token.expires_in * 1000),\n          }),\n          {\n            httpOnly: true,\n            maxAge: token.expires_in,\n            path: \"/\",\n          }\n        )\n      }\n    })\n\n  } catch (e) {\n    return { error: e };\n  }\n};\n",
+      "start": 1669937514003,
+      "end": 1669937514081
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import \"isomorphic-fetch\";\nimport cookie from \"cookie\";\nimport { getToken } from \"../../../../../util/oauth\";\nexport const GET = async ({ params, request }) => {\n  const authCode = new URLSearchParams(request.url).get(\"code\");\n  const redirectUri = \"http://localhost:3000/api/auth/twitter/callback\";\n  try {\n    const token = await getToken({ authCode, redirectUri });\n    return new Response(\"{}\", {\n      status: 302,\n      headers: {\n        \"Location\": \"/\",\n        \"Set-Cookie\": cookie.serialize(\n          \"token\",\n          JSON.stringify({\n            value: token.access_token,\n            expiresAt: new Date(Date.now() + token.expires_in * 1e3)\n          }),\n          {\n            httpOnly: true,\n            maxAge: token.expires_in,\n            path: \"/\"\n          }\n        )\n      }\n    });\n  } catch (e) {\n    return { error: e };\n  }\n};\n",
+      "start": 1669937514081,
+      "end": 1669937514112
+    }
+  ],
+  "virtual": false
+}

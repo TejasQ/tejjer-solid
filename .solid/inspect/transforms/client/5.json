@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/apps/solid/src/components/MenuItem.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { css } from \"solid-styled-components\";\n\nfunction MenuItem(props) {\n  return (\n    <div class=\"px-4 py-2 text-xl transition rounded-3xl dark:hover:bg-white hover:bg-gray-400 hover:bg-opacity-20\">\n      {props.children}\n    </div>\n  );\n}\n\nexport default MenuItem;\n",
+      "start": 1669937513242,
+      "end": 1669937513296
+    },
+    {
+      "name": "solid",
+      "result": "import { template as _$template } from \"solid-js/web\";\nimport { getNextElement as _$getNextElement } from \"solid-js/web\";\nimport { insert as _$insert } from \"solid-js/web\";\nconst _tmpl$ = /*#__PURE__*/_$template(`<div class=\"px-4 py-2 text-xl transition rounded-3xl dark:hover:bg-white hover:bg-gray-400 hover:bg-opacity-20\"></div>`, 2);\nfunction MenuItem(props) {\n  return (() => {\n    const _el$ = _$getNextElement(_tmpl$);\n    _$insert(_el$, () => props.children);\n    return _el$;\n  })();\n}\nexport default MenuItem;",
+      "start": 1669937513297,
+      "end": 1669937513299
+    }
+  ],
+  "virtual": false
+}

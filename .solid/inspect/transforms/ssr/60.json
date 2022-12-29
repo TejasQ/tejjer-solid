@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/shared.ts",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "vite:esbuild"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "export { HttpHeader } from \"./components/HttpHeader\";\nexport { HttpStatusCode } from \"./components/HttpStatusCode\";\nexport { createServerAction$, createServerData$, createServerMultiAction$, ServerError } from \"./data\";\nexport * from \"./responses\";\nexport * from \"./ServerContext\";\nexport * from \"./types\";\n\n",
+      "start": 1669937513987,
+      "end": 1669937514081
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "export { HttpHeader } from \"./components/HttpHeader\";\nexport { HttpStatusCode } from \"./components/HttpStatusCode\";\nexport { createServerAction$, createServerData$, createServerMultiAction$, ServerError } from \"./data\";\nexport * from \"./responses\";\nexport * from \"./ServerContext\";\nexport * from \"./types\";\n",
+      "start": 1669937514081,
+      "end": 1669937514112
+    }
+  ],
+  "virtual": false
+}

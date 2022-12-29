@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/apps/solid/src/components/Button.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { css } from \"solid-styled-components\";\n\nimport clsx from \"clsx\";\n\nfunction Button(props) {\n  return (\n    <button\n      class={clsx(\n        props.fullWidth && \"w-full justify-center \",\n        props.color === \"secondary\"\n          ? \"text-white bg-gray-600\"\n          : \"dark:text-black dark:bg-white dark:hover:bg-white bg-sky-600 hover:bg-sky-500 text-white\",\n        !props.condensed ? \"text-lg\" : \"text-sm\",\n        \"flex items-center font-bold px-4 py-2 rounded-3xl\"\n      )}\n      onClick={(event) => props.onClick()}\n    >\n      {props.children}\n    </button>\n  );\n}\n\nexport default Button;\n",
+      "start": 1669937513947,
+      "end": 1669937513980
+    },
+    {
+      "name": "solid",
+      "result": "import { ssr as _$ssr } from \"solid-js/web\";\nimport { ssrAttribute as _$ssrAttribute } from \"solid-js/web\";\nimport { escape as _$escape } from \"solid-js/web\";\nimport { ssrHydrationKey as _$ssrHydrationKey } from \"solid-js/web\";\nconst _tmpl$ = [\"<button\", \">\", \"</button>\"];\nimport \"solid-styled-components\";\nimport clsx from \"clsx\";\nfunction Button(props) {\n  return _$ssr(_tmpl$, _$ssrHydrationKey() + _$ssrAttribute(\"class\", _$escape(clsx(props.fullWidth && \"w-full justify-center \", props.color === \"secondary\" ? \"text-white bg-gray-600\" : \"dark:text-black dark:bg-white dark:hover:bg-white bg-sky-600 hover:bg-sky-500 text-white\", !props.condensed ? \"text-lg\" : \"text-sm\", \"flex items-center font-bold px-4 py-2 rounded-3xl\"), true), false), _$escape(props.children));\n}\nexport default Button;",
+      "start": 1669937513980,
+      "end": 1669937513982
+    }
+  ],
+  "virtual": false
+}

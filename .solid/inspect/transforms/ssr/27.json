@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/api/internalFetch.ts",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "vite:esbuild"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { FETCH_EVENT } from \"../server/types\";\nimport { getRouteMatches } from \"./router\";\nimport type { APIEvent, MatchRoute, Method } from \"./types\";\n\nlet apiRoutes: MatchRoute[];\n\nexport const registerApiRoutes = (routes: MatchRoute[]) => {\n  apiRoutes = routes;\n};\n\nexport async function internalFetch(route: string, init: RequestInit) {\n  if (route.startsWith(\"http\")) {\n    return await fetch(route, init);\n  }\n\n  let url = new URL(route, \"http://internal\");\n  const request = new Request(url.href, init);\n  const handler = getRouteMatches(apiRoutes, url.pathname, request.method.toUpperCase() as Method);\n\n  if (!handler) {\n    throw new Error(`No handler found for ${request.method} ${request.url}`);\n  }\n\n  let apiEvent: APIEvent = Object.freeze({\n    request,\n    params: handler.params,\n    env: {},\n    $type: FETCH_EVENT,\n    fetch: internalFetch\n  });\n\n  const response = await handler.handler(apiEvent);\n  return response;\n}\n",
+      "start": 1669937513810,
+      "end": 1669937513861
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { FETCH_EVENT } from \"../server/types\";\nimport { getRouteMatches } from \"./router\";\nlet apiRoutes;\nexport const registerApiRoutes = (routes) => {\n  apiRoutes = routes;\n};\nexport async function internalFetch(route, init) {\n  if (route.startsWith(\"http\")) {\n    return await fetch(route, init);\n  }\n  let url = new URL(route, \"http://internal\");\n  const request = new Request(url.href, init);\n  const handler = getRouteMatches(apiRoutes, url.pathname, request.method.toUpperCase());\n  if (!handler) {\n    throw new Error(`No handler found for ${request.method} ${request.url}`);\n  }\n  let apiEvent = Object.freeze({\n    request,\n    params: handler.params,\n    env: {},\n    $type: FETCH_EVENT,\n    fetch: internalFetch\n  });\n  const response = await handler.handler(apiEvent);\n  return response;\n}\n",
+      "start": 1669937513861,
+      "end": 1669937513863
+    }
+  ],
+  "virtual": false
+}

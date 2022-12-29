@@ -1,0 +1,51 @@
+{
+  "../../node_modules/.pnpm/solid-js@1.6.2/node_modules/solid-js/dist/solid.js": [],
+  "../../node_modules/.pnpm/solid-js@1.6.2/node_modules/solid-js/web/dist/web.js": [],
+  "\u0000vite/preload-helper": [],
+  "../../node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/entry-client/mount.tsx": [],
+  "../../node_modules/.pnpm/@solidjs+meta@0.28.2_solid-js@1.6.2/node_modules/@solidjs/meta/dist/index.jsx": [],
+  "../../node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.2/node_modules/@solidjs/router/dist/integration.js": [],
+  "../../node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.2/node_modules/@solidjs/router/dist/lifecycle.js": [],
+  "../../node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.2/node_modules/@solidjs/router/dist/utils.js": [],
+  "../../node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.2/node_modules/@solidjs/router/dist/routing.js": [],
+  "../../node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.2/node_modules/@solidjs/router/dist/components.jsx": [],
+  "../../node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/data/FormError.tsx": [],
+  "../../node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/responses.ts": [],
+  "../../node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/ServerContext.tsx": [],
+  "../../node_modules/.pnpm/solid-js@1.6.2/node_modules/solid-js/store/dist/store.js": [],
+  "../../node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/router.tsx": [],
+  "../../node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/types.tsx": [],
+  "../../node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/data/createRouteData.tsx": [],
+  "../../node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/server-functions/browser.ts": [],
+  "../../node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/error-boundary/ErrorBoundary.tsx": [],
+  "../../node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/root/Scripts.tsx": [],
+  "../../node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/root/Document.tsx": [],
+  "../../node_modules/.pnpm/clsx@1.2.1/node_modules/clsx/dist/clsx.m.js": [],
+  "src/components/Button.tsx": [],
+  "src/components/Logo.tsx": [],
+  "src/components/Avatar.tsx": [],
+  "src/components/Composer.tsx": [],
+  "src/components/SectionHeading.tsx": [],
+  "src/components/RightSidebar.tsx": [],
+  "src/components/MenuItem.tsx": [],
+  "src/components/Sidebar.tsx": [],
+  "src/components/Timeline.tsx": [],
+  "src/routes/index.tsx?data": [],
+  "../../node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/root/FileRoutes.tsx": [],
+  "src/root.css": [],
+  "src/root.tsx": [],
+  "../../node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/entry-client/StartClient.tsx": [],
+  "src/entry-client.tsx": [],
+  "util/oauth.ts": [
+    "/assets/index.e9713729.js"
+  ],
+  "src/components/LoginPage.tsx": [
+    "/assets/index.e9713729.js"
+  ],
+  "src/components/WholeUI.tsx": [
+    "/assets/index.e9713729.js"
+  ],
+  "src/routes/index.tsx": [
+    "/assets/index.e9713729.js"
+  ]
+}

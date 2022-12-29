@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/root/index.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "// isomorphic exports\n\nexport { Body, Head, Html } from \"./Document\";\nexport { default as Links } from \"./Links\";\nexport { default as Meta } from \"./Meta\";\nexport { default as Scripts } from \"./Scripts\";\n\n",
+      "start": 1669937512960,
+      "end": 1669937513022
+    },
+    {
+      "name": "solid",
+      "result": "// isomorphic exports\n\nexport { Body, Head, Html } from \"./Document\";\nexport { default as Links } from \"./Links\";\nexport { default as Meta } from \"./Meta\";\nexport { default as Scripts } from \"./Scripts\";",
+      "start": 1669937513022,
+      "end": 1669937513024
+    }
+  ],
+  "virtual": false
+}

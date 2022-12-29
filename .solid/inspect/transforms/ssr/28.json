@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/api/middleware.ts",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "vite:esbuild"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { Middleware } from \"../entry-server\";\nimport { FetchEvent, FETCH_EVENT } from \"../server/types\";\nimport { getApiHandler } from \"./index\";\nimport { internalFetch } from \"./internalFetch\";\n\nexport const apiRoutes: Middleware = ({ forward }) => {\n  return async (event: FetchEvent) => {\n    let apiHandler = getApiHandler(new URL(event.request.url), event.request.method);\n    if (apiHandler) {\n      let apiEvent = Object.freeze({\n        request: event.request,\n        params: apiHandler.params,\n        env: event.env,\n        $type: FETCH_EVENT,\n        fetch: internalFetch\n      });\n      try {\n        return await apiHandler.handler(apiEvent);\n      } catch (error) {\n        if (error instanceof Response) {\n          return error;\n        }\n        return new Response(JSON.stringify(error), {\n          status: 500\n        });\n      }\n    }\n    return await forward(event);\n  };\n};\n",
+      "start": 1669937513815,
+      "end": 1669937513861
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { FETCH_EVENT } from \"../server/types\";\nimport { getApiHandler } from \"./index\";\nimport { internalFetch } from \"./internalFetch\";\nexport const apiRoutes = ({ forward }) => {\n  return async (event) => {\n    let apiHandler = getApiHandler(new URL(event.request.url), event.request.method);\n    if (apiHandler) {\n      let apiEvent = Object.freeze({\n        request: event.request,\n        params: apiHandler.params,\n        env: event.env,\n        $type: FETCH_EVENT,\n        fetch: internalFetch\n      });\n      try {\n        return await apiHandler.handler(apiEvent);\n      } catch (error) {\n        if (error instanceof Response) {\n          return error;\n        }\n        return new Response(JSON.stringify(error), {\n          status: 500\n        });\n      }\n    }\n    return await forward(event);\n  };\n};\n",
+      "start": 1669937513861,
+      "end": 1669937513940
+    }
+  ],
+  "virtual": false
+}

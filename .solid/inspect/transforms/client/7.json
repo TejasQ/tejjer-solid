@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/apps/solid/src/components/SectionHeading.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { css } from \"solid-styled-components\";\n\nfunction SectionHeading(props) {\n  return <h2 class=\"text-2xl font-bold\">{props.children}</h2>;\n}\n\nexport default SectionHeading;\n",
+      "start": 1669937513261,
+      "end": 1669937513300
+    },
+    {
+      "name": "solid",
+      "result": "import { template as _$template } from \"solid-js/web\";\nimport { getNextElement as _$getNextElement } from \"solid-js/web\";\nimport { insert as _$insert } from \"solid-js/web\";\nconst _tmpl$ = /*#__PURE__*/_$template(`<h2 class=\"text-2xl font-bold\"></h2>`, 2);\nfunction SectionHeading(props) {\n  return (() => {\n    const _el$ = _$getNextElement(_tmpl$);\n    _$insert(_el$, () => props.children);\n    return _el$;\n  })();\n}\nexport default SectionHeading;",
+      "start": 1669937513300,
+      "end": 1669937513302
+    }
+  ],
+  "virtual": false
+}

@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/apps/solid/src/components/LoginPage.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { authorize } from \"../../util/oauth\";\n\nimport Button from \"./Button\";\nimport Logo from \"./Logo\";\n\nfunction LoginPage() {\n  return (\n    <div class=\"p-4 w-screen h-screen flex items-center justify-center flex-col gap-8 md:gap-16\">\n      <Logo size={256}></Logo>\n      <div class=\"grid max-w-screen-md gap-4 mx-auto text-center\">\n        <h1 class=\"text-6xl font-bold\">Tejjer</h1>\n        <p class=\"text-xl\">\n          This application is a lightweight clone of Twitter with partial\n          feature parity that exists to demonstrate various user interface\n          features and performance. It is open source and used for learning.\n        </p>\n      </div>\n      <div class=\"flex items-center gap-4\">\n        <Button\n          onClick={() => {\n            console.log(\"hi\");\n            authorize();\n          }}\n        >\n          Login\n        </Button>\n        <Button\n          color=\"secondary\"\n          onClick={(event) => window.open(\"github url @todo\")}\n        >\n          Browse the Code\n        </Button>\n      </div>\n    </div>\n  );\n}\n\nexport default LoginPage;\n",
+      "start": 1669937513022,
+      "end": 1669937513077
+    },
+    {
+      "name": "solid",
+      "result": "import { template as _$template } from \"solid-js/web\";\nimport { getNextElement as _$getNextElement } from \"solid-js/web\";\nimport { getNextMarker as _$getNextMarker } from \"solid-js/web\";\nimport { insert as _$insert } from \"solid-js/web\";\nimport { createComponent as _$createComponent } from \"solid-js/web\";\nconst _tmpl$ = /*#__PURE__*/_$template(`<div class=\"p-4 w-screen h-screen flex items-center justify-center flex-col gap-8 md:gap-16\"><!#><!/><div class=\"grid max-w-screen-md gap-4 mx-auto text-center\"><h1 class=\"text-6xl font-bold\">Tejjer</h1><p class=\"text-xl\">This application is a lightweight clone of Twitter with partial feature parity that exists to demonstrate various user interface features and performance. It is open source and used for learning.</p></div><div class=\"flex items-center gap-4\"><!#><!/><!#><!/></div></div>`, 16);\nimport { authorize } from \"../../util/oauth\";\nimport Button from \"./Button\";\nimport Logo from \"./Logo\";\nfunction LoginPage() {\n  return (() => {\n    const _el$ = _$getNextElement(_tmpl$),\n      _el$8 = _el$.firstChild,\n      [_el$9, _co$3] = _$getNextMarker(_el$8.nextSibling),\n      _el$2 = _el$9.nextSibling,\n      _el$3 = _el$2.nextSibling,\n      _el$4 = _el$3.firstChild,\n      [_el$5, _co$] = _$getNextMarker(_el$4.nextSibling),\n      _el$6 = _el$5.nextSibling,\n      [_el$7, _co$2] = _$getNextMarker(_el$6.nextSibling);\n    _$insert(_el$, _$createComponent(Logo, {\n      size: 256\n    }), _el$9, _co$3);\n    _$insert(_el$3, _$createComponent(Button, {\n      onClick: () => {\n        console.log(\"hi\");\n        authorize();\n      },\n      children: \"Login\"\n    }), _el$5, _co$);\n    _$insert(_el$3, _$createComponent(Button, {\n      color: \"secondary\",\n      onClick: event => window.open(\"github url @todo\"),\n      children: \"Browse the Code\"\n    }), _el$7, _co$2);\n    return _el$;\n  })();\n}\nexport default LoginPage;",
+      "start": 1669937513077,
+      "end": 1669937513081
+    }
+  ],
+  "virtual": false
+}

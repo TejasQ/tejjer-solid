@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/apps/solid/src/entry-server.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import {\n  StartServer,\n  createHandler,\n  renderAsync,\n} from \"solid-start/entry-server\";\n\nexport default createHandler(\n  renderAsync((event) => <StartServer event={event} />)\n);\n",
+      "start": 1669937513789,
+      "end": 1669937513790
+    },
+    {
+      "name": "solid",
+      "result": "import { createComponent as _$createComponent } from \"solid-js/web\";\nimport { StartServer, createHandler, renderAsync } from \"solid-start/entry-server\";\nexport default createHandler(renderAsync(event => _$createComponent(StartServer, {\n  event: event\n})));",
+      "start": 1669937513790,
+      "end": 1669937513792
+    }
+  ],
+  "virtual": false
+}

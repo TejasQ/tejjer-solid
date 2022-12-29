@@ -1,0 +1,37 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/root/FileRoutes.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid-start-file-system-router",
+    "solid",
+    "vite:build-import-analysis"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/// <reference path=\"../server/types.tsx\" />\n\n// @ts-expect-error\nvar fileRoutes = $FILE_ROUTES;\n\n/**\n * Routes are the file system based routes, used by Solid App Router to show the current page according to the URL.\n */\n\nconst FileRoutes = () => {\n  return fileRoutes;\n};\n\nexport default FileRoutes;\nexport { fileRoutes };\n",
+      "start": 1669937512911,
+      "end": 1669937512945
+    },
+    {
+      "name": "solid-start-file-system-router",
+      "result": "/// <reference path=\"../server/types.tsx\" />\n\n// @ts-expect-error\n\n  import { lazy } from 'solid-js';\n  import  { routeData as routeData0 } from '/Users/tejas/Sites/LAB/tejjer/apps/solid/src/routes/index.tsx?data';\n  const fileRoutes = /*#__PURE__*/ [\n{\ndata: routeData0,\n component: lazy(() => import('/Users/tejas/Sites/LAB/tejjer/apps/solid/src/routes/index.tsx')),\n path: \"/\" \n}\n];\n\n/**\n * Routes are the file system based routes, used by Solid App Router to show the current page according to the URL.\n */\n\nconst FileRoutes = () => {\n  return fileRoutes;\n};\n\nexport default FileRoutes;\nexport { fileRoutes };\n",
+      "start": 1669937512946,
+      "end": 1669937512946
+    },
+    {
+      "name": "solid",
+      "result": "/// <reference path=\"../server/types.tsx\" />\n\n// @ts-expect-error\n\nimport { lazy } from 'solid-js';\nimport { routeData as routeData0 } from '/Users/tejas/Sites/LAB/tejjer/apps/solid/src/routes/index.tsx?data';\nconst fileRoutes = /*#__PURE__*/[{\n  data: routeData0,\n  component: lazy(() => import('/Users/tejas/Sites/LAB/tejjer/apps/solid/src/routes/index.tsx')),\n  path: \"/\"\n}];\n\n/**\n * Routes are the file system based routes, used by Solid App Router to show the current page according to the URL.\n */\n\nconst FileRoutes = () => {\n  return fileRoutes;\n};\nexport default FileRoutes;\nexport { fileRoutes };",
+      "start": 1669937512946,
+      "end": 1669937512949
+    },
+    {
+      "name": "vite:build-import-analysis",
+      "result": "import { __vitePreload } from \"\u0000vite/preload-helper\";/// <reference path=\"../server/types.tsx\" />\n\n// @ts-expect-error\n\nimport { lazy } from 'solid-js';\nimport { routeData as routeData0 } from '/Users/tejas/Sites/LAB/tejjer/apps/solid/src/routes/index.tsx?data';\nconst fileRoutes = /*#__PURE__*/[{\n  data: routeData0,\n  component: lazy(() => __vitePreload(() => import('/Users/tejas/Sites/LAB/tejjer/apps/solid/src/routes/index.tsx'),__VITE_IS_MODERN__?\"__VITE_PRELOAD__\":void 0)),\n  path: \"/\"\n}];\n\n/**\n * Routes are the file system based routes, used by Solid App Router to show the current page according to the URL.\n */\n\nconst FileRoutes = () => {\n  return fileRoutes;\n};\nexport default FileRoutes;\nexport { fileRoutes };",
+      "start": 1669937512949,
+      "end": 1669937512949
+    }
+  ],
+  "virtual": false
+}

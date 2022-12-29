@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/apps/solid/src/components/Avatar.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { css } from \"solid-styled-components\";\n\nfunction Avatar(props) {\n  return (\n    <img\n      class=\"rounded-full\"\n      width={props.size || 40}\n      alt={props.alt}\n      src={props.url}\n    />\n  );\n}\n\nexport default Avatar;\n",
+      "start": 1669937514009,
+      "end": 1669937514083
+    },
+    {
+      "name": "solid",
+      "result": "import { ssr as _$ssr } from \"solid-js/web\";\nimport { ssrAttribute as _$ssrAttribute } from \"solid-js/web\";\nimport { escape as _$escape } from \"solid-js/web\";\nimport { ssrHydrationKey as _$ssrHydrationKey } from \"solid-js/web\";\nconst _tmpl$ = [\"<img\", \" class=\\\"rounded-full\\\"\", \">\"];\nimport \"solid-styled-components\";\nfunction Avatar(props) {\n  return _$ssr(_tmpl$, _$ssrHydrationKey(), _$ssrAttribute(\"width\", _$escape(props.size, true) || 40, false) + _$ssrAttribute(\"alt\", _$escape(props.alt, true), false) + _$ssrAttribute(\"src\", _$escape(props.url, true), false));\n}\nexport default Avatar;",
+      "start": 1669937514083,
+      "end": 1669937514085
+    }
+  ],
+  "virtual": false
+}

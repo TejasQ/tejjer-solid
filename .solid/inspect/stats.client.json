@@ -1,0 +1,2277 @@
+{
+  "version": 2,
+  "tree": {
+    "name": "root",
+    "children": [
+      {
+        "name": "assets/entry-client.8538b65c.js",
+        "children": [
+          {
+            "name": "Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm",
+            "children": [
+              {
+                "name": "solid-js@1.6.2/node_modules/solid-js",
+                "children": [
+                  {
+                    "name": "dist/solid.js",
+                    "uid": "96eb-1"
+                  },
+                  {
+                    "name": "web/dist/web.js",
+                    "uid": "96eb-3"
+                  },
+                  {
+                    "name": "store/dist/store.js",
+                    "uid": "96eb-27"
+                  }
+                ]
+              },
+              {
+                "name": "solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start",
+                "children": [
+                  {
+                    "name": "entry-client",
+                    "children": [
+                      {
+                        "uid": "96eb-7",
+                        "name": "mount.tsx"
+                      },
+                      {
+                        "uid": "96eb-71",
+                        "name": "StartClient.tsx"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "data",
+                    "children": [
+                      {
+                        "uid": "96eb-21",
+                        "name": "FormError.tsx"
+                      },
+                      {
+                        "uid": "96eb-33",
+                        "name": "createRouteData.tsx"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "server",
+                    "children": [
+                      {
+                        "uid": "96eb-23",
+                        "name": "responses.ts"
+                      },
+                      {
+                        "uid": "96eb-25",
+                        "name": "ServerContext.tsx"
+                      },
+                      {
+                        "uid": "96eb-31",
+                        "name": "types.tsx"
+                      },
+                      {
+                        "name": "server-functions/browser.ts",
+                        "uid": "96eb-35"
+                      }
+                    ]
+                  },
+                  {
+                    "uid": "96eb-29",
+                    "name": "router.tsx"
+                  },
+                  {
+                    "name": "error-boundary/ErrorBoundary.tsx",
+                    "uid": "96eb-37"
+                  },
+                  {
+                    "name": "root",
+                    "children": [
+                      {
+                        "uid": "96eb-39",
+                        "name": "Scripts.tsx"
+                      },
+                      {
+                        "uid": "96eb-41",
+                        "name": "Document.tsx"
+                      },
+                      {
+                        "uid": "96eb-65",
+                        "name": "FileRoutes.tsx"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "@solidjs+meta@0.28.2_solid-js@1.6.2/node_modules/@solidjs/meta/dist/index.jsx",
+                "uid": "96eb-9"
+              },
+              {
+                "name": "@solidjs+router@0.5.1_solid-js@1.6.2/node_modules/@solidjs/router/dist",
+                "children": [
+                  {
+                    "uid": "96eb-11",
+                    "name": "integration.js"
+                  },
+                  {
+                    "uid": "96eb-13",
+                    "name": "lifecycle.js"
+                  },
+                  {
+                    "uid": "96eb-15",
+                    "name": "utils.js"
+                  },
+                  {
+                    "uid": "96eb-17",
+                    "name": "routing.js"
+                  },
+                  {
+                    "uid": "96eb-19",
+                    "name": "components.jsx"
+                  }
+                ]
+              },
+              {
+                "name": "clsx@1.2.1/node_modules/clsx/dist/clsx.m.js",
+                "uid": "96eb-43"
+              }
+            ]
+          },
+          {
+            "name": "\u0000vite/preload-helper",
+            "uid": "96eb-5"
+          },
+          {
+            "name": "src",
+            "children": [
+              {
+                "name": "components",
+                "children": [
+                  {
+                    "uid": "96eb-45",
+                    "name": "Button.tsx"
+                  },
+                  {
+                    "uid": "96eb-47",
+                    "name": "Logo.tsx"
+                  },
+                  {
+                    "uid": "96eb-49",
+                    "name": "Avatar.tsx"
+                  },
+                  {
+                    "uid": "96eb-51",
+                    "name": "Composer.tsx"
+                  },
+                  {
+                    "uid": "96eb-53",
+                    "name": "SectionHeading.tsx"
+                  },
+                  {
+                    "uid": "96eb-55",
+                    "name": "RightSidebar.tsx"
+                  },
+                  {
+                    "uid": "96eb-57",
+                    "name": "MenuItem.tsx"
+                  },
+                  {
+                    "uid": "96eb-59",
+                    "name": "Sidebar.tsx"
+                  },
+                  {
+                    "uid": "96eb-61",
+                    "name": "Timeline.tsx"
+                  }
+                ]
+              },
+              {
+                "name": "routes/index.tsx?data",
+                "uid": "96eb-63"
+              },
+              {
+                "uid": "96eb-67",
+                "name": "root.css"
+              },
+              {
+                "uid": "96eb-69",
+                "name": "root.tsx"
+              },
+              {
+                "uid": "96eb-73",
+                "name": "entry-client.tsx"
+              }
+            ]
+          }
+        ],
+        "id": "assets/entry-client.8538b65c.js",
+        "gzipLength": 23264,
+        "brotliLength": 0,
+        "renderedLength": 60545
+      },
+      {
+        "name": "assets/index.e9713729.js",
+        "children": [
+          {
+            "name": "util/oauth.ts",
+            "uid": "96eb-75"
+          },
+          {
+            "name": "src",
+            "children": [
+              {
+                "name": "components",
+                "children": [
+                  {
+                    "uid": "96eb-77",
+                    "name": "LoginPage.tsx"
+                  },
+                  {
+                    "uid": "96eb-79",
+                    "name": "WholeUI.tsx"
+                  }
+                ]
+              },
+              {
+                "name": "routes/index.tsx",
+                "uid": "96eb-81"
+              }
+            ]
+          }
+        ],
+        "id": "assets/index.e9713729.js",
+        "gzipLength": 1355,
+        "brotliLength": 0,
+        "renderedLength": 2619
+      }
+    ],
+    "isRoot": true
+  },
+  "nodeParts": {
+    "96eb-1": {
+      "renderedLength": 31071,
+      "gzipLength": 7534,
+      "brotliLength": 0,
+      "mainUid": "96eb-0"
+    },
+    "96eb-3": {
+      "renderedLength": 17106,
+      "gzipLength": 4751,
+      "brotliLength": 0,
+      "mainUid": "96eb-2"
+    },
+    "96eb-5": {
+      "renderedLength": 2200,
+      "gzipLength": 932,
+      "brotliLength": 0,
+      "mainUid": "96eb-4"
+    },
+    "96eb-7": {
+      "renderedLength": 88,
+      "gzipLength": 80,
+      "brotliLength": 0,
+      "mainUid": "96eb-6"
+    },
+    "96eb-9": {
+      "renderedLength": 4011,
+      "gzipLength": 1316,
+      "brotliLength": 0,
+      "mainUid": "96eb-8"
+    },
+    "96eb-11": {
+      "renderedLength": 2116,
+      "gzipLength": 785,
+      "brotliLength": 0,
+      "mainUid": "96eb-10"
+    },
+    "96eb-13": {
+      "renderedLength": 845,
+      "gzipLength": 326,
+      "brotliLength": 0,
+      "mainUid": "96eb-12"
+    },
+    "96eb-15": {
+      "renderedLength": 4291,
+      "gzipLength": 1632,
+      "brotliLength": 0,
+      "mainUid": "96eb-14"
+    },
+    "96eb-17": {
+      "renderedLength": 12117,
+      "gzipLength": 3368,
+      "brotliLength": 0,
+      "mainUid": "96eb-16"
+    },
+    "96eb-19": {
+      "renderedLength": 2462,
+      "gzipLength": 794,
+      "brotliLength": 0,
+      "mainUid": "96eb-18"
+    },
+    "96eb-21": {
+      "renderedLength": 607,
+      "gzipLength": 275,
+      "brotliLength": 0,
+      "mainUid": "96eb-20"
+    },
+    "96eb-23": {
+      "renderedLength": 997,
+      "gzipLength": 422,
+      "brotliLength": 0,
+      "mainUid": "96eb-22"
+    },
+    "96eb-25": {
+      "renderedLength": 40,
+      "gzipLength": 54,
+      "brotliLength": 0,
+      "mainUid": "96eb-24"
+    },
+    "96eb-27": {
+      "renderedLength": 10306,
+      "gzipLength": 2722,
+      "brotliLength": 0,
+      "mainUid": "96eb-26"
+    },
+    "96eb-29": {
+      "renderedLength": 80,
+      "gzipLength": 79,
+      "brotliLength": 0,
+      "mainUid": "96eb-28"
+    },
+    "96eb-31": {
+      "renderedLength": 29,
+      "gzipLength": 45,
+      "brotliLength": 0,
+      "mainUid": "96eb-30"
+    },
+    "96eb-33": {
+      "renderedLength": 2835,
+      "gzipLength": 1059,
+      "brotliLength": 0,
+      "mainUid": "96eb-32"
+    },
+    "96eb-35": {
+      "renderedLength": 3628,
+      "gzipLength": 1055,
+      "brotliLength": 0,
+      "mainUid": "96eb-34"
+    },
+    "96eb-37": {
+      "renderedLength": 1958,
+      "gzipLength": 701,
+      "brotliLength": 0,
+      "mainUid": "96eb-36"
+    },
+    "96eb-39": {
+      "renderedLength": 270,
+      "gzipLength": 197,
+      "brotliLength": 0,
+      "mainUid": "96eb-38"
+    },
+    "96eb-41": {
+      "renderedLength": 796,
+      "gzipLength": 295,
+      "brotliLength": 0,
+      "mainUid": "96eb-40"
+    },
+    "96eb-43": {
+      "renderedLength": 347,
+      "gzipLength": 222,
+      "brotliLength": 0,
+      "mainUid": "96eb-42"
+    },
+    "96eb-45": {
+      "renderedLength": 653,
+      "gzipLength": 416,
+      "brotliLength": 0,
+      "mainUid": "96eb-44"
+    },
+    "96eb-47": {
+      "renderedLength": 8206,
+      "gzipLength": 3859,
+      "brotliLength": 0,
+      "mainUid": "96eb-46"
+    },
+    "96eb-49": {
+      "renderedLength": 615,
+      "gzipLength": 316,
+      "brotliLength": 0,
+      "mainUid": "96eb-48"
+    },
+    "96eb-51": {
+      "renderedLength": 2459,
+      "gzipLength": 968,
+      "brotliLength": 0,
+      "mainUid": "96eb-50"
+    },
+    "96eb-53": {
+      "renderedLength": 240,
+      "gzipLength": 197,
+      "brotliLength": 0,
+      "mainUid": "96eb-52"
+    },
+    "96eb-55": {
+      "renderedLength": 3236,
+      "gzipLength": 1186,
+      "brotliLength": 0,
+      "mainUid": "96eb-54"
+    },
+    "96eb-57": {
+      "renderedLength": 316,
+      "gzipLength": 245,
+      "brotliLength": 0,
+      "mainUid": "96eb-56"
+    },
+    "96eb-59": {
+      "renderedLength": 4639,
+      "gzipLength": 1018,
+      "brotliLength": 0,
+      "mainUid": "96eb-58"
+    },
+    "96eb-61": {
+      "renderedLength": 3120,
+      "gzipLength": 985,
+      "brotliLength": 0,
+      "mainUid": "96eb-60"
+    },
+    "96eb-63": {
+      "renderedLength": 169,
+      "gzipLength": 145,
+      "brotliLength": 0,
+      "mainUid": "96eb-62"
+    },
+    "96eb-65": {
+      "renderedLength": 355,
+      "gzipLength": 278,
+      "brotliLength": 0,
+      "mainUid": "96eb-64"
+    },
+    "96eb-67": {
+      "renderedLength": 16,
+      "gzipLength": 36,
+      "brotliLength": 0,
+      "mainUid": "96eb-66"
+    },
+    "96eb-69": {
+      "renderedLength": 1061,
+      "gzipLength": 345,
+      "brotliLength": 0,
+      "mainUid": "96eb-68"
+    },
+    "96eb-71": {
+      "renderedLength": 1006,
+      "gzipLength": 403,
+      "brotliLength": 0,
+      "mainUid": "96eb-70"
+    },
+    "96eb-73": {
+      "renderedLength": 56,
+      "gzipLength": 72,
+      "brotliLength": 0,
+      "mainUid": "96eb-72"
+    },
+    "96eb-75": {
+      "renderedLength": 778,
+      "gzipLength": 475,
+      "brotliLength": 0,
+      "mainUid": "96eb-74"
+    },
+    "96eb-77": {
+      "renderedLength": 1412,
+      "gzipLength": 674,
+      "brotliLength": 0,
+      "mainUid": "96eb-76"
+    },
+    "96eb-79": {
+      "renderedLength": 1385,
+      "gzipLength": 576,
+      "brotliLength": 0,
+      "mainUid": "96eb-78"
+    },
+    "96eb-81": {
+      "renderedLength": 511,
+      "gzipLength": 275,
+      "brotliLength": 0,
+      "mainUid": "96eb-80"
+    }
+  },
+  "nodeMetas": {
+    "96eb-0": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-js@1.6.2/node_modules/solid-js/dist/solid.js",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-1"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-6"
+        },
+        {
+          "uid": "96eb-83"
+        },
+        {
+          "uid": "96eb-8"
+        },
+        {
+          "uid": "96eb-68"
+        },
+        {
+          "uid": "96eb-24"
+        },
+        {
+          "uid": "96eb-18"
+        },
+        {
+          "uid": "96eb-10"
+        },
+        {
+          "uid": "96eb-16"
+        },
+        {
+          "uid": "96eb-14"
+        },
+        {
+          "uid": "96eb-64"
+        },
+        {
+          "uid": "96eb-88"
+        },
+        {
+          "uid": "96eb-28"
+        },
+        {
+          "uid": "96eb-93"
+        },
+        {
+          "uid": "96eb-32"
+        },
+        {
+          "uid": "96eb-36"
+        },
+        {
+          "uid": "96eb-94"
+        },
+        {
+          "uid": "96eb-40"
+        },
+        {
+          "uid": "96eb-95"
+        },
+        {
+          "uid": "96eb-96"
+        },
+        {
+          "uid": "96eb-38"
+        },
+        {
+          "uid": "96eb-97"
+        },
+        {
+          "uid": "96eb-50"
+        },
+        {
+          "uid": "96eb-54"
+        },
+        {
+          "uid": "96eb-60"
+        },
+        {
+          "uid": "96eb-105"
+        },
+        {
+          "uid": "96eb-26"
+        },
+        {
+          "uid": "96eb-106"
+        },
+        {
+          "uid": "96eb-107"
+        },
+        {
+          "uid": "96eb-108"
+        }
+      ]
+    },
+    "96eb-2": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-js@1.6.2/node_modules/solid-js/web/dist/web.js",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-3"
+      },
+      "imported": [
+        {
+          "uid": "96eb-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-72"
+        },
+        {
+          "uid": "96eb-6"
+        },
+        {
+          "uid": "96eb-70"
+        },
+        {
+          "uid": "96eb-8"
+        },
+        {
+          "uid": "96eb-68"
+        },
+        {
+          "uid": "96eb-18"
+        },
+        {
+          "uid": "96eb-16"
+        },
+        {
+          "uid": "96eb-62"
+        },
+        {
+          "uid": "96eb-80"
+        },
+        {
+          "uid": "96eb-88"
+        },
+        {
+          "uid": "96eb-28"
+        },
+        {
+          "uid": "96eb-76"
+        },
+        {
+          "uid": "96eb-78"
+        },
+        {
+          "uid": "96eb-93"
+        },
+        {
+          "uid": "96eb-32"
+        },
+        {
+          "uid": "96eb-36"
+        },
+        {
+          "uid": "96eb-94"
+        },
+        {
+          "uid": "96eb-40"
+        },
+        {
+          "uid": "96eb-95"
+        },
+        {
+          "uid": "96eb-96"
+        },
+        {
+          "uid": "96eb-38"
+        },
+        {
+          "uid": "96eb-97"
+        },
+        {
+          "uid": "96eb-44"
+        },
+        {
+          "uid": "96eb-46"
+        },
+        {
+          "uid": "96eb-50"
+        },
+        {
+          "uid": "96eb-54"
+        },
+        {
+          "uid": "96eb-58"
+        },
+        {
+          "uid": "96eb-60"
+        },
+        {
+          "uid": "96eb-105"
+        },
+        {
+          "uid": "96eb-106"
+        },
+        {
+          "uid": "96eb-107"
+        },
+        {
+          "uid": "96eb-108"
+        },
+        {
+          "uid": "96eb-48"
+        },
+        {
+          "uid": "96eb-52"
+        },
+        {
+          "uid": "96eb-56"
+        }
+      ]
+    },
+    "96eb-4": {
+      "id": "\u0000vite/preload-helper",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-5"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "96eb-6"
+        },
+        {
+          "uid": "96eb-64"
+        }
+      ]
+    },
+    "96eb-6": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/entry-client/mount.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-7"
+      },
+      "imported": [
+        {
+          "uid": "96eb-4"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-83"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-82"
+        }
+      ]
+    },
+    "96eb-8": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/@solidjs+meta@0.28.2_solid-js@1.6.2/node_modules/@solidjs/meta/dist/index.jsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-9"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-70"
+        },
+        {
+          "uid": "96eb-85"
+        },
+        {
+          "uid": "96eb-96"
+        },
+        {
+          "uid": "96eb-106"
+        }
+      ]
+    },
+    "96eb-10": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.2/node_modules/@solidjs/router/dist/integration.js",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-11"
+      },
+      "imported": [
+        {
+          "uid": "96eb-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-84"
+        },
+        {
+          "uid": "96eb-18"
+        },
+        {
+          "uid": "96eb-16"
+        }
+      ]
+    },
+    "96eb-12": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.2/node_modules/@solidjs/router/dist/lifecycle.js",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-13"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "96eb-84"
+        },
+        {
+          "uid": "96eb-16"
+        }
+      ]
+    },
+    "96eb-14": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.2/node_modules/@solidjs/router/dist/utils.js",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-15"
+      },
+      "imported": [
+        {
+          "uid": "96eb-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-84"
+        },
+        {
+          "uid": "96eb-18"
+        },
+        {
+          "uid": "96eb-16"
+        }
+      ]
+    },
+    "96eb-16": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.2/node_modules/@solidjs/router/dist/routing.js",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-17"
+      },
+      "imported": [
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-10"
+        },
+        {
+          "uid": "96eb-12"
+        },
+        {
+          "uid": "96eb-14"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-84"
+        },
+        {
+          "uid": "96eb-18"
+        }
+      ]
+    },
+    "96eb-18": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.2/node_modules/@solidjs/router/dist/components.jsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-19"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-10"
+        },
+        {
+          "uid": "96eb-16"
+        },
+        {
+          "uid": "96eb-14"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-84"
+        }
+      ]
+    },
+    "96eb-20": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/data/FormError.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-21"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "96eb-86"
+        },
+        {
+          "uid": "96eb-34"
+        },
+        {
+          "uid": "96eb-105"
+        }
+      ]
+    },
+    "96eb-22": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/responses.ts",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-23"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "96eb-85"
+        },
+        {
+          "uid": "96eb-93"
+        },
+        {
+          "uid": "96eb-32"
+        },
+        {
+          "uid": "96eb-34"
+        },
+        {
+          "uid": "96eb-104"
+        }
+      ]
+    },
+    "96eb-24": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/ServerContext.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-25"
+      },
+      "imported": [
+        {
+          "uid": "96eb-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-70"
+        },
+        {
+          "uid": "96eb-85"
+        },
+        {
+          "uid": "96eb-88"
+        },
+        {
+          "uid": "96eb-93"
+        },
+        {
+          "uid": "96eb-32"
+        },
+        {
+          "uid": "96eb-95"
+        },
+        {
+          "uid": "96eb-96"
+        },
+        {
+          "uid": "96eb-38"
+        },
+        {
+          "uid": "96eb-104"
+        },
+        {
+          "uid": "96eb-106"
+        },
+        {
+          "uid": "96eb-107"
+        },
+        {
+          "uid": "96eb-108"
+        }
+      ]
+    },
+    "96eb-26": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-js@1.6.2/node_modules/solid-js/store/dist/store.js",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-27"
+      },
+      "imported": [
+        {
+          "uid": "96eb-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-32"
+        }
+      ]
+    },
+    "96eb-28": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/router.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-29"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-84"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-97"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-85"
+        },
+        {
+          "uid": "96eb-32"
+        }
+      ]
+    },
+    "96eb-30": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/types.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-31"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "96eb-70"
+        },
+        {
+          "uid": "96eb-32"
+        },
+        {
+          "uid": "96eb-34"
+        },
+        {
+          "uid": "96eb-104"
+        }
+      ]
+    },
+    "96eb-32": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/data/createRouteData.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-33"
+      },
+      "imported": [
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-26"
+        },
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-28"
+        },
+        {
+          "uid": "96eb-22"
+        },
+        {
+          "uid": "96eb-24"
+        },
+        {
+          "uid": "96eb-30"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-86"
+        },
+        {
+          "uid": "96eb-93"
+        }
+      ]
+    },
+    "96eb-34": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/server-functions/browser.ts",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-35"
+      },
+      "imported": [
+        {
+          "uid": "96eb-22"
+        },
+        {
+          "uid": "96eb-30"
+        },
+        {
+          "uid": "96eb-86"
+        },
+        {
+          "uid": "96eb-20"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-92"
+        }
+      ]
+    },
+    "96eb-36": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/error-boundary/ErrorBoundary.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-37"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-87"
+        }
+      ]
+    },
+    "96eb-38": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/root/Scripts.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-39"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-24"
+        },
+        {
+          "uid": "96eb-106"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-89"
+        },
+        {
+          "uid": "96eb-40"
+        }
+      ]
+    },
+    "96eb-40": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/root/Document.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-41"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-95"
+        },
+        {
+          "uid": "96eb-96"
+        },
+        {
+          "uid": "96eb-38"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-89"
+        }
+      ]
+    },
+    "96eb-42": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/clsx@1.2.1/node_modules/clsx/dist/clsx.m.js",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-43"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "96eb-44"
+        }
+      ]
+    },
+    "96eb-44": {
+      "id": "/src/components/Button.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-45"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-42"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-76"
+        },
+        {
+          "uid": "96eb-50"
+        },
+        {
+          "uid": "96eb-54"
+        },
+        {
+          "uid": "96eb-58"
+        }
+      ]
+    },
+    "96eb-46": {
+      "id": "/src/components/Logo.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-47"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-76"
+        },
+        {
+          "uid": "96eb-58"
+        }
+      ]
+    },
+    "96eb-48": {
+      "id": "/src/components/Avatar.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-49"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-50"
+        },
+        {
+          "uid": "96eb-54"
+        },
+        {
+          "uid": "96eb-58"
+        },
+        {
+          "uid": "96eb-60"
+        }
+      ]
+    },
+    "96eb-50": {
+      "id": "/src/components/Composer.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-51"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-48"
+        },
+        {
+          "uid": "96eb-44"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-78"
+        }
+      ]
+    },
+    "96eb-52": {
+      "id": "/src/components/SectionHeading.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-53"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-54"
+        }
+      ]
+    },
+    "96eb-54": {
+      "id": "/src/components/RightSidebar.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-55"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-48"
+        },
+        {
+          "uid": "96eb-44"
+        },
+        {
+          "uid": "96eb-52"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-78"
+        }
+      ]
+    },
+    "96eb-56": {
+      "id": "/src/components/MenuItem.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-57"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-58"
+        }
+      ]
+    },
+    "96eb-58": {
+      "id": "/src/components/Sidebar.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-59"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-48"
+        },
+        {
+          "uid": "96eb-44"
+        },
+        {
+          "uid": "96eb-46"
+        },
+        {
+          "uid": "96eb-56"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-78"
+        }
+      ]
+    },
+    "96eb-60": {
+      "id": "/src/components/Timeline.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-61"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-48"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-78"
+        }
+      ]
+    },
+    "96eb-62": {
+      "id": "/src/routes/index.tsx?data",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-63"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-86"
+        },
+        {
+          "uid": "96eb-92"
+        },
+        {
+          "uid": "96eb-85"
+        },
+        {
+          "uid": "96eb-76"
+        },
+        {
+          "uid": "96eb-78"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-64"
+        }
+      ]
+    },
+    "96eb-64": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/root/FileRoutes.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-65"
+      },
+      "imported": [
+        {
+          "uid": "96eb-4"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-62"
+        },
+        {
+          "uid": "96eb-80",
+          "dynamic": true
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-68"
+        }
+      ]
+    },
+    "96eb-66": {
+      "id": "/src/root.css",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-67"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "96eb-68"
+        }
+      ]
+    },
+    "96eb-68": {
+      "id": "/src/root.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-69"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-64"
+        },
+        {
+          "uid": "96eb-85"
+        },
+        {
+          "uid": "96eb-66"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-70"
+        }
+      ]
+    },
+    "96eb-70": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/entry-client/StartClient.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-71"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-8"
+        },
+        {
+          "uid": "96eb-84"
+        },
+        {
+          "uid": "96eb-68"
+        },
+        {
+          "uid": "96eb-24"
+        },
+        {
+          "uid": "96eb-30"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-82"
+        }
+      ]
+    },
+    "96eb-72": {
+      "id": "/src/entry-client.tsx",
+      "moduleParts": {
+        "assets/entry-client.8538b65c.js": "96eb-73"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-82"
+        }
+      ],
+      "importedBy": [],
+      "isEntry": true
+    },
+    "96eb-74": {
+      "id": "/util/oauth.ts",
+      "moduleParts": {
+        "assets/index.e9713729.js": "96eb-75"
+      },
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "96eb-76"
+        }
+      ]
+    },
+    "96eb-76": {
+      "id": "/src/components/LoginPage.tsx",
+      "moduleParts": {
+        "assets/index.e9713729.js": "96eb-77"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-74"
+        },
+        {
+          "uid": "96eb-44"
+        },
+        {
+          "uid": "96eb-46"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-62"
+        },
+        {
+          "uid": "96eb-80"
+        }
+      ]
+    },
+    "96eb-78": {
+      "id": "/src/components/WholeUI.tsx",
+      "moduleParts": {
+        "assets/index.e9713729.js": "96eb-79"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-50"
+        },
+        {
+          "uid": "96eb-54"
+        },
+        {
+          "uid": "96eb-58"
+        },
+        {
+          "uid": "96eb-60"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-62"
+        },
+        {
+          "uid": "96eb-80"
+        }
+      ]
+    },
+    "96eb-80": {
+      "id": "/src/routes/index.tsx",
+      "moduleParts": {
+        "assets/index.e9713729.js": "96eb-81"
+      },
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-86"
+        },
+        {
+          "uid": "96eb-92"
+        },
+        {
+          "uid": "96eb-85"
+        },
+        {
+          "uid": "96eb-76"
+        },
+        {
+          "uid": "96eb-78"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-64"
+        }
+      ]
+    },
+    "96eb-82": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/entry-client/index.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-6"
+        },
+        {
+          "uid": "96eb-70"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-72"
+        }
+      ]
+    },
+    "96eb-83": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/islands/router.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-6"
+        }
+      ]
+    },
+    "96eb-84": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/@solidjs+router@0.5.1_solid-js@1.6.2/node_modules/@solidjs/router/dist/index.jsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-18"
+        },
+        {
+          "uid": "96eb-10"
+        },
+        {
+          "uid": "96eb-12"
+        },
+        {
+          "uid": "96eb-16"
+        },
+        {
+          "uid": "96eb-14"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-70"
+        },
+        {
+          "uid": "96eb-85"
+        },
+        {
+          "uid": "96eb-86"
+        },
+        {
+          "uid": "96eb-28"
+        },
+        {
+          "uid": "96eb-93"
+        }
+      ]
+    },
+    "96eb-85": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/index.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-8"
+        },
+        {
+          "uid": "96eb-84"
+        },
+        {
+          "uid": "96eb-86"
+        },
+        {
+          "uid": "96eb-87"
+        },
+        {
+          "uid": "96eb-88"
+        },
+        {
+          "uid": "96eb-89"
+        },
+        {
+          "uid": "96eb-28"
+        },
+        {
+          "uid": "96eb-22"
+        },
+        {
+          "uid": "96eb-24"
+        },
+        {
+          "uid": "96eb-90"
+        },
+        {
+          "uid": "96eb-91"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-68"
+        },
+        {
+          "uid": "96eb-62"
+        },
+        {
+          "uid": "96eb-80"
+        }
+      ]
+    },
+    "96eb-86": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/data/index.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-84"
+        },
+        {
+          "uid": "96eb-93"
+        },
+        {
+          "uid": "96eb-32"
+        },
+        {
+          "uid": "96eb-20"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-85"
+        },
+        {
+          "uid": "96eb-62"
+        },
+        {
+          "uid": "96eb-80"
+        },
+        {
+          "uid": "96eb-34"
+        },
+        {
+          "uid": "96eb-109"
+        }
+      ]
+    },
+    "96eb-87": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/error-boundary/index.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-36"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-85"
+        }
+      ]
+    },
+    "96eb-88": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/islands/index.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-24"
+        },
+        {
+          "uid": "96eb-94"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-85"
+        }
+      ]
+    },
+    "96eb-89": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/root/index.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-40"
+        },
+        {
+          "uid": "96eb-95"
+        },
+        {
+          "uid": "96eb-96"
+        },
+        {
+          "uid": "96eb-38"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-85"
+        }
+      ]
+    },
+    "96eb-90": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/session/index.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-98"
+        },
+        {
+          "uid": "96eb-99"
+        },
+        {
+          "uid": "96eb-100"
+        },
+        {
+          "uid": "96eb-101"
+        },
+        {
+          "uid": "96eb-102"
+        },
+        {
+          "uid": "96eb-103"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-85"
+        }
+      ]
+    },
+    "96eb-91": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/types.ts",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "96eb-85"
+        }
+      ]
+    },
+    "96eb-92": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/browser.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-34"
+        },
+        {
+          "uid": "96eb-104"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-62"
+        },
+        {
+          "uid": "96eb-80"
+        }
+      ]
+    },
+    "96eb-93": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/data/createRouteAction.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-84"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-105"
+        },
+        {
+          "uid": "96eb-22"
+        },
+        {
+          "uid": "96eb-24"
+        },
+        {
+          "uid": "96eb-32"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-86"
+        }
+      ]
+    },
+    "96eb-94": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/islands/clientOnly.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-2"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-88"
+        }
+      ]
+    },
+    "96eb-95": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/root/Links.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-24"
+        },
+        {
+          "uid": "96eb-106"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-89"
+        },
+        {
+          "uid": "96eb-40"
+        }
+      ]
+    },
+    "96eb-96": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/root/Meta.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-8"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-24"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-89"
+        },
+        {
+          "uid": "96eb-40"
+        }
+      ]
+    },
+    "96eb-97": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/islands/server-router.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-0"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-28"
+        }
+      ]
+    },
+    "96eb-98": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/session/cookies.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-103"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-90"
+        },
+        {
+          "uid": "96eb-100"
+        },
+        {
+          "uid": "96eb-102"
+        }
+      ]
+    },
+    "96eb-99": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/session/cookieSigning.ts",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "96eb-90"
+        }
+      ]
+    },
+    "96eb-100": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/session/cookieStorage.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-98"
+        },
+        {
+          "uid": "96eb-102"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-90"
+        }
+      ]
+    },
+    "96eb-101": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/session/memoryStorage.ts",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "96eb-90"
+        }
+      ]
+    },
+    "96eb-102": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/session/sessions.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-98"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-90"
+        },
+        {
+          "uid": "96eb-100"
+        }
+      ]
+    },
+    "96eb-103": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/session/cookie.ts",
+      "moduleParts": {},
+      "imported": [],
+      "importedBy": [
+        {
+          "uid": "96eb-90"
+        },
+        {
+          "uid": "96eb-98"
+        }
+      ]
+    },
+    "96eb-104": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/shared.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-107"
+        },
+        {
+          "uid": "96eb-108"
+        },
+        {
+          "uid": "96eb-109"
+        },
+        {
+          "uid": "96eb-22"
+        },
+        {
+          "uid": "96eb-24"
+        },
+        {
+          "uid": "96eb-30"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-92"
+        }
+      ]
+    },
+    "96eb-105": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/data/Form.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-20"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-93"
+        }
+      ]
+    },
+    "96eb-106": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/root/InlineStyles.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-8"
+        },
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-24"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-95"
+        },
+        {
+          "uid": "96eb-38"
+        }
+      ]
+    },
+    "96eb-107": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/components/HttpHeader.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-24"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-104"
+        }
+      ]
+    },
+    "96eb-108": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/components/HttpStatusCode.tsx",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-0"
+        },
+        {
+          "uid": "96eb-2"
+        },
+        {
+          "uid": "96eb-24"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-104"
+        }
+      ]
+    },
+    "96eb-109": {
+      "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/data.ts",
+      "moduleParts": {},
+      "imported": [
+        {
+          "uid": "96eb-86"
+        }
+      ],
+      "importedBy": [
+        {
+          "uid": "96eb-104"
+        }
+      ]
+    }
+  },
+  "env": {
+    "rollup": "2.79.1"
+  },
+  "options": {
+    "gzip": true,
+    "brotli": false,
+    "sourcemap": false
+  }
+}

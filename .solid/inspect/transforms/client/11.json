@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/apps/solid/src/entry-client.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { mount, StartClient } from \"solid-start/entry-client\";\n\nmount(() => <StartClient />, document);\n",
+      "start": 1669937512701,
+      "end": 1669937512702
+    },
+    {
+      "name": "solid",
+      "result": "import { createComponent as _$createComponent } from \"solid-js/web\";\nimport { mount, StartClient } from \"solid-start/entry-client\";\nmount(() => _$createComponent(StartClient, {}), document);",
+      "start": 1669937512702,
+      "end": 1669937512737
+    }
+  ],
+  "virtual": false
+}

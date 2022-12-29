@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/root/Meta.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { renderTags } from \"@solidjs/meta\";\nimport { useContext } from \"solid-js\";\nimport { ssr, useAssets } from \"solid-js/web\";\nimport { ServerContext } from \"../server/ServerContext\";\n\nexport default function Meta() {\n  const context = useContext(ServerContext);\n  // @ts-expect-error The ssr() types do not match the Assets child types\n  useAssets(() => ssr(renderTags(context.tags)));\n  return null;\n}\n",
+      "start": 1669937513025,
+      "end": 1669937513126
+    },
+    {
+      "name": "solid",
+      "result": "import { renderTags } from \"@solidjs/meta\";\nimport { useContext } from \"solid-js\";\nimport { ssr, useAssets } from \"solid-js/web\";\nimport { ServerContext } from \"../server/ServerContext\";\nexport default function Meta() {\n  const context = useContext(ServerContext);\n  // @ts-expect-error The ssr() types do not match the Assets child types\n  useAssets(() => ssr(renderTags(context.tags)));\n  return null;\n}",
+      "start": 1669937513126,
+      "end": 1669937513130
+    }
+  ],
+  "virtual": false
+}

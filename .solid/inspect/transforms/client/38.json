@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/index.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "export { Link, Meta, Style, Stylesheet, Title } from \"@solidjs/meta\";\nexport {\n  Navigate,\n  Route,\n  useHref,\n  useIsRouting,\n  useMatch,\n  useParams,\n  useResolvedPath,\n  useRouteData,\n  useRoutes,\n  useSearchParams,\n  type RouteDataFunc,\n  type RouteDataFuncArgs as RouteDataArgs\n} from \"@solidjs/router\";\nexport type { APIEvent as APIEvent } from \"./api\";\nexport {\n  createRouteAction,\n  createRouteData,\n  createRouteMultiAction,\n  FormError,\n  refetchRouteData,\n  ServerError\n} from \"./data\";\nexport type { FormAction, FormMethod, FormProps, SubmitOptions } from \"./data\";\nexport { default, ErrorBoundary, ErrorMessage } from \"./error-boundary\";\nexport { clientOnly as unstable_clientOnly, island as unstable_island } from \"./islands\";\nexport { Body, Head, Html, Scripts } from \"./root\";\nexport * from \"./router\";\nexport * from \"./server/responses\";\nexport { ServerContext, useRequest as useServerContext } from \"./server/ServerContext\";\nexport type { FetchEvent, PageEvent, ServerFunctionEvent } from \"./server/types\";\nexport {\n  createCookie,\n  createCookieSessionStorage,\n  createMemorySessionStorage,\n  createSessionStorage,\n  parseCookie,\n  serializeCookie,\n  type CookieParseOptions,\n  type CookieSerializeOptions,\n  type SessionIdStorageStrategy,\n  type SessionStorage\n} from \"./session\";\nimport { JSX } from \"solid-js\";\nimport \"./types\";\nexport declare function FileRoutes(): JSX.Element;\n",
+      "start": 1669937512911,
+      "end": 1669937512951
+    },
+    {
+      "name": "solid",
+      "result": "export { Link, Meta, Style, Stylesheet, Title } from \"@solidjs/meta\";\nexport { Navigate, Route, useHref, useIsRouting, useMatch, useParams, useResolvedPath, useRouteData, useRoutes, useSearchParams } from \"@solidjs/router\";\nexport { createRouteAction, createRouteData, createRouteMultiAction, FormError, refetchRouteData, ServerError } from \"./data\";\nexport { default, ErrorBoundary, ErrorMessage } from \"./error-boundary\";\nexport { clientOnly as unstable_clientOnly, island as unstable_island } from \"./islands\";\nexport { Body, Head, Html, Scripts } from \"./root\";\nexport * from \"./router\";\nexport * from \"./server/responses\";\nexport { ServerContext, useRequest as useServerContext } from \"./server/ServerContext\";\nexport { createCookie, createCookieSessionStorage, createMemorySessionStorage, createSessionStorage, parseCookie, serializeCookie } from \"./session\";\nimport \"./types\";",
+      "start": 1669937512951,
+      "end": 1669937512954
+    }
+  ],
+  "virtual": false
+}

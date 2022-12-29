@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/apps/solid/src/components/WholeUI.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { css } from \"solid-styled-components\";\n\nimport Composer from \"./Composer\";\nimport RightSidebar from \"./RightSidebar\";\nimport Sidebar from \"./Sidebar\";\nimport Timeline from \"./Timeline\";\n\nfunction WholeUI(props) {\n  return (\n    <div class=\"px-4 relative h-screen md:grid gap-8 md:grid-cols-[1fr,3fr,1fr]\">\n      <Sidebar me={props.me}></Sidebar>\n      <main class=\"grid content-start border-l border-r border-gray-200 dark:border-gray-800\">\n        <div class=\"sticky top-0 flex items-center p-4 bg-white dark:bg-black bg-opacity-70 backdrop-blur\">\n          <div class=\"text-xl font-bold\">Home</div>\n          <div class=\"ml-auto\">...</div>\n        </div>\n        <Composer me={props.me} token={props.token}></Composer>\n        <div>\n          <Timeline timeline={props.timeline}></Timeline>\n        </div>\n      </main>\n      <RightSidebar></RightSidebar>\n    </div>\n  );\n}\n\nexport default WholeUI;\n",
+      "start": 1669937513022,
+      "end": 1669937513150
+    },
+    {
+      "name": "solid",
+      "result": "import { template as _$template } from \"solid-js/web\";\nimport { getNextElement as _$getNextElement } from \"solid-js/web\";\nimport { getNextMarker as _$getNextMarker } from \"solid-js/web\";\nimport { insert as _$insert } from \"solid-js/web\";\nimport { createComponent as _$createComponent } from \"solid-js/web\";\nconst _tmpl$ = /*#__PURE__*/_$template(`<div class=\"px-4 relative h-screen md:grid gap-8 md:grid-cols-[1fr,3fr,1fr]\"><!#><!/><main class=\"grid content-start border-l border-r border-gray-200 dark:border-gray-800\"><div class=\"sticky top-0 flex items-center p-4 bg-white dark:bg-black bg-opacity-70 backdrop-blur\"><div class=\"text-xl font-bold\">Home</div><div class=\"ml-auto\">...</div></div><!#><!/><div></div></main><!#><!/></div>`, 18);\nimport Composer from \"./Composer\";\nimport RightSidebar from \"./RightSidebar\";\nimport Sidebar from \"./Sidebar\";\nimport Timeline from \"./Timeline\";\nfunction WholeUI(props) {\n  return (() => {\n    const _el$ = _$getNextElement(_tmpl$),\n      _el$7 = _el$.firstChild,\n      [_el$8, _co$2] = _$getNextMarker(_el$7.nextSibling),\n      _el$2 = _el$8.nextSibling,\n      _el$3 = _el$2.firstChild,\n      _el$5 = _el$3.nextSibling,\n      [_el$6, _co$] = _$getNextMarker(_el$5.nextSibling),\n      _el$4 = _el$6.nextSibling,\n      _el$9 = _el$2.nextSibling,\n      [_el$10, _co$3] = _$getNextMarker(_el$9.nextSibling);\n    _$insert(_el$, _$createComponent(Sidebar, {\n      get me() {\n        return props.me;\n      }\n    }), _el$8, _co$2);\n    _$insert(_el$2, _$createComponent(Composer, {\n      get me() {\n        return props.me;\n      },\n      get token() {\n        return props.token;\n      }\n    }), _el$6, _co$);\n    _$insert(_el$4, _$createComponent(Timeline, {\n      get timeline() {\n        return props.timeline;\n      }\n    }));\n    _$insert(_el$, _$createComponent(RightSidebar, {}), _el$10, _co$3);\n    return _el$;\n  })();\n}\nexport default WholeUI;",
+      "start": 1669937513150,
+      "end": 1669937513154
+    }
+  ],
+  "virtual": false
+}

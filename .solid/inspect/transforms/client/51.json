@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/ServerContext.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { PageEvent } from \"./types\";\n\nimport { createContext, useContext } from \"solid-js\";\n\nexport const ServerContext = createContext<PageEvent>({} as any);\n\nexport const useRequest = () => {\n  return useContext(ServerContext)!;\n};\n\nexport const useServerContext = () => {\n  throw new Error(\"useServerContext is deprecated. Use useRequest instead.\");\n};\n",
+      "start": 1669937512887,
+      "end": 1669937512891
+    },
+    {
+      "name": "solid",
+      "result": "import { createContext, useContext } from \"solid-js\";\nexport const ServerContext = createContext({});\nexport const useRequest = () => {\n  return useContext(ServerContext);\n};\nexport const useServerContext = () => {\n  throw new Error(\"useServerContext is deprecated. Use useRequest instead.\");\n};",
+      "start": 1669937512891,
+      "end": 1669937512895
+    }
+  ],
+  "virtual": false
+}

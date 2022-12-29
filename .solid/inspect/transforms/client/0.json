@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/apps/solid/src/components/Avatar.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { css } from \"solid-styled-components\";\n\nfunction Avatar(props) {\n  return (\n    <img\n      class=\"rounded-full\"\n      width={props.size || 40}\n      alt={props.alt}\n      src={props.url}\n    />\n  );\n}\n\nexport default Avatar;\n",
+      "start": 1669937513228,
+      "end": 1669937513291
+    },
+    {
+      "name": "solid",
+      "result": "import { template as _$template } from \"solid-js/web\";\nimport { setAttribute as _$setAttribute } from \"solid-js/web\";\nimport { effect as _$effect } from \"solid-js/web\";\nimport { getNextElement as _$getNextElement } from \"solid-js/web\";\nconst _tmpl$ = /*#__PURE__*/_$template(`<img class=\"rounded-full\">`, 1);\nfunction Avatar(props) {\n  return (() => {\n    const _el$ = _$getNextElement(_tmpl$);\n    _$effect(_p$ => {\n      const _v$ = props.size || 40,\n        _v$2 = props.alt,\n        _v$3 = props.url;\n      _v$ !== _p$._v$ && _$setAttribute(_el$, \"width\", _p$._v$ = _v$);\n      _v$2 !== _p$._v$2 && _$setAttribute(_el$, \"alt\", _p$._v$2 = _v$2);\n      _v$3 !== _p$._v$3 && _$setAttribute(_el$, \"src\", _p$._v$3 = _v$3);\n      return _p$;\n    }, {\n      _v$: undefined,\n      _v$2: undefined,\n      _v$3: undefined\n    });\n    return _el$;\n  })();\n}\nexport default Avatar;",
+      "start": 1669937513291,
+      "end": 1669937513293
+    }
+  ],
+  "virtual": false
+}

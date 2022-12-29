@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/server/data.ts",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "vite:esbuild"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { createRouteAction, createRouteData, createRouteMultiAction } from \"../data\";\nexport { ServerError } from \"../data\";\nexport const createServerData$ = createRouteData;\nexport const createServerAction$ = createRouteAction;\nexport const createServerMultiAction$ = createRouteMultiAction;\n",
+      "start": 1669937514118,
+      "end": 1669937514144
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { createRouteAction, createRouteData, createRouteMultiAction } from \"../data\";\nexport { ServerError } from \"../data\";\nexport const createServerData$ = createRouteData;\nexport const createServerAction$ = createRouteAction;\nexport const createServerMultiAction$ = createRouteMultiAction;\n",
+      "start": 1669937514144,
+      "end": 1669937514145
+    }
+  ],
+  "virtual": false
+}

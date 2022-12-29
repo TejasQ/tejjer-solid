@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/apps/solid/util/oauth.ts",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "vite:esbuild"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "type AuthorizeOptions = {\n    redirectUri?: string;\n}\n\ntype TokenOptions = { authCode: string; redirectUri: string }\n\nexport type Token = { \"token_type\": string, \"expires_in\": number, \"access_token\": string, \"scope\": string }\n\nexport const clientId = 'WWVNb0F2Vk5vSTNILXFfOXVrNWM6MTpjaQ';\nexport const authorize = ({ redirectUri = 'http://localhost:3000/api/auth/twitter/callback' }: AuthorizeOptions = {}) => {\n    const scopes = ['tweet.read', 'tweet.write', 'follows.write', 'like.write', 'users.read'];\n    const oAuthPopup = window.open(`https://twitter.com/i/oauth2/authorize?response_type=code&client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join('%20')}&state=state&code_challenge=challenge&code_challenge_method=plain`, '_blank');\n    return new Promise((resolve, reject) => {\n        if (!oAuthPopup) {\n            reject(new Error('Failed to open popup'));\n            return;\n        }\n\n        const respondToWindowClose = () => {\n            resolve(null)\n        }\n\n        oAuthPopup.addEventListener('beforeunload', respondToWindowClose)\n    })\n}\n\nexport const getToken = async ({ authCode, redirectUri }: TokenOptions): Promise<Token> => {\n    const obj = {\n        'code': authCode,\n        'grant_type': 'authorization_code',\n        'client_id': clientId,\n        'redirect_uri': redirectUri,\n        'code_verifier': 'challenge',\n    }\n\n    return await fetch(`https://api.twitter.com/2/oauth2/token`, {\n        headers: {\n            Authorization: \"Basic V1dWTmIwRjJWazV2U1ROSUxYRmZPWFZyTldNNk1UcGphUTp0SHVXUFJ4MDNPS0ZpcVNqUU9sdVoyNkFYUFU3ZmNOa0JqRnlYWnhodms3UjlmdllSWQ==\",\n            \"Content-Type\": \"application/x-www-form-urlencoded\"\n        },\n        body: new URLSearchParams(obj).toString(),\n        method: \"POST\"\n    }).then(r => r.json())\n}",
+      "start": 1669937513947,
+      "end": 1669937513980
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "export const clientId = \"WWVNb0F2Vk5vSTNILXFfOXVrNWM6MTpjaQ\";\nexport const authorize = ({ redirectUri = \"http://localhost:3000/api/auth/twitter/callback\" } = {}) => {\n  const scopes = [\"tweet.read\", \"tweet.write\", \"follows.write\", \"like.write\", \"users.read\"];\n  const oAuthPopup = window.open(`https://twitter.com/i/oauth2/authorize?response_type=code&client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scopes.join(\"%20\")}&state=state&code_challenge=challenge&code_challenge_method=plain`, \"_blank\");\n  return new Promise((resolve, reject) => {\n    if (!oAuthPopup) {\n      reject(new Error(\"Failed to open popup\"));\n      return;\n    }\n    const respondToWindowClose = () => {\n      resolve(null);\n    };\n    oAuthPopup.addEventListener(\"beforeunload\", respondToWindowClose);\n  });\n};\nexport const getToken = async ({ authCode, redirectUri }) => {\n  const obj = {\n    \"code\": authCode,\n    \"grant_type\": \"authorization_code\",\n    \"client_id\": clientId,\n    \"redirect_uri\": redirectUri,\n    \"code_verifier\": \"challenge\"\n  };\n  return await fetch(`https://api.twitter.com/2/oauth2/token`, {\n    headers: {\n      Authorization: \"Basic V1dWTmIwRjJWazV2U1ROSUxYRmZPWFZyTldNNk1UcGphUTp0SHVXUFJ4MDNPS0ZpcVNqUU9sdVoyNkFYUFU3ZmNOa0JqRnlYWnhodms3UjlmdllSWQ==\",\n      \"Content-Type\": \"application/x-www-form-urlencoded\"\n    },\n    body: new URLSearchParams(obj).toString(),\n    method: \"POST\"\n  }).then((r) => r.json());\n};\n",
+      "start": 1669937513980,
+      "end": 1669937514112
+    }
+  ],
+  "virtual": false
+}

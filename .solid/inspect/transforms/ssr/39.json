@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/error-boundary/index.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { ErrorBoundary } from \"./ErrorBoundary\";\nexport { ErrorMessage } from \"./ErrorBoundary\";\nexport { ErrorBoundary };\nexport default ErrorBoundary;\n",
+      "start": 1669937513939,
+      "end": 1669937513953
+    },
+    {
+      "name": "solid",
+      "result": "import { ErrorBoundary } from \"./ErrorBoundary\";\nexport { ErrorMessage } from \"./ErrorBoundary\";\nexport { ErrorBoundary };\nexport default ErrorBoundary;",
+      "start": 1669937513953,
+      "end": 1669937513954
+    }
+  ],
+  "virtual": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/root/FileRoutes.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid-start-file-system-router",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "/// <reference path=\"../server/types.tsx\" />\n\n// @ts-expect-error\nvar fileRoutes = $FILE_ROUTES;\n\n/**\n * Routes are the file system based routes, used by Solid App Router to show the current page according to the URL.\n */\n\nconst FileRoutes = () => {\n  return fileRoutes;\n};\n\nexport default FileRoutes;\nexport { fileRoutes };\n",
+      "start": 1669937513815,
+      "end": 1669937513846
+    },
+    {
+      "name": "solid-start-file-system-router",
+      "result": "/// <reference path=\"../server/types.tsx\" />\n\n// @ts-expect-error\n\n  \n  import  { routeData as routeData0 } from '/Users/tejas/Sites/LAB/tejjer/apps/solid/src/routes/index.tsx?data';\nimport routeData1  from '/Users/tejas/Sites/LAB/tejjer/apps/solid/src/routes/index.tsx';\n  const fileRoutes = /*#__PURE__*/ [\n{\ndata: routeData0,\n component: routeData1,\n path: \"/\" \n}\n];\n\n/**\n * Routes are the file system based routes, used by Solid App Router to show the current page according to the URL.\n */\n\nconst FileRoutes = () => {\n  return fileRoutes;\n};\n\nexport default FileRoutes;\nexport { fileRoutes };\n",
+      "start": 1669937513846,
+      "end": 1669937513846
+    },
+    {
+      "name": "solid",
+      "result": "/// <reference path=\"../server/types.tsx\" />\n\n// @ts-expect-error\n\nimport { routeData as routeData0 } from '/Users/tejas/Sites/LAB/tejjer/apps/solid/src/routes/index.tsx?data';\nimport routeData1 from '/Users/tejas/Sites/LAB/tejjer/apps/solid/src/routes/index.tsx';\nconst fileRoutes = /*#__PURE__*/[{\n  data: routeData0,\n  component: routeData1,\n  path: \"/\"\n}];\n\n/**\n * Routes are the file system based routes, used by Solid App Router to show the current page according to the URL.\n */\n\nconst FileRoutes = () => {\n  return fileRoutes;\n};\nexport default FileRoutes;\nexport { fileRoutes };",
+      "start": 1669937513846,
+      "end": 1669937513848
+    }
+  ],
+  "virtual": false
+}

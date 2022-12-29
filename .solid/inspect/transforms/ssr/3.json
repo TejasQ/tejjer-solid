@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/apps/solid/src/components/LoginPage.tsx",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "solid"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { authorize } from \"../../util/oauth\";\n\nimport Button from \"./Button\";\nimport Logo from \"./Logo\";\n\nfunction LoginPage() {\n  return (\n    <div class=\"p-4 w-screen h-screen flex items-center justify-center flex-col gap-8 md:gap-16\">\n      <Logo size={256}></Logo>\n      <div class=\"grid max-w-screen-md gap-4 mx-auto text-center\">\n        <h1 class=\"text-6xl font-bold\">Tejjer</h1>\n        <p class=\"text-xl\">\n          This application is a lightweight clone of Twitter with partial\n          feature parity that exists to demonstrate various user interface\n          features and performance. It is open source and used for learning.\n        </p>\n      </div>\n      <div class=\"flex items-center gap-4\">\n        <Button\n          onClick={() => {\n            console.log(\"hi\");\n            authorize();\n          }}\n        >\n          Login\n        </Button>\n        <Button\n          color=\"secondary\"\n          onClick={(event) => window.open(\"github url @todo\")}\n        >\n          Browse the Code\n        </Button>\n      </div>\n    </div>\n  );\n}\n\nexport default LoginPage;\n",
+      "start": 1669937513902,
+      "end": 1669937513942
+    },
+    {
+      "name": "solid",
+      "result": "import { ssr as _$ssr } from \"solid-js/web\";\nimport { escape as _$escape } from \"solid-js/web\";\nimport { createComponent as _$createComponent } from \"solid-js/web\";\nimport { ssrHydrationKey as _$ssrHydrationKey } from \"solid-js/web\";\nconst _tmpl$ = [\"<div\", \" class=\\\"p-4 w-screen h-screen flex items-center justify-center flex-col gap-8 md:gap-16\\\"><!--#-->\", \"<!--/--><div class=\\\"grid max-w-screen-md gap-4 mx-auto text-center\\\"><h1 class=\\\"text-6xl font-bold\\\">Tejjer</h1><p class=\\\"text-xl\\\">This application is a lightweight clone of Twitter with partial feature parity that exists to demonstrate various user interface features and performance. It is open source and used for learning.</p></div><div class=\\\"flex items-center gap-4\\\"><!--#-->\", \"<!--/--><!--#-->\", \"<!--/--></div></div>\"];\nimport { authorize } from \"../../util/oauth\";\nimport Button from \"./Button\";\nimport Logo from \"./Logo\";\nfunction LoginPage() {\n  return _$ssr(_tmpl$, _$ssrHydrationKey(), _$escape(_$createComponent(Logo, {\n    size: 256\n  })), _$escape(_$createComponent(Button, {\n    onClick: () => {\n      console.log(\"hi\");\n      authorize();\n    },\n    children: \"Login\"\n  })), _$escape(_$createComponent(Button, {\n    color: \"secondary\",\n    onClick: event => window.open(\"github url @todo\"),\n    children: \"Browse the Code\"\n  })));\n}\nexport default LoginPage;",
+      "start": 1669937513942,
+      "end": 1669937513946
+    }
+  ],
+  "virtual": false
+}

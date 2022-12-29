@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/apps/solid/src/routes/api/tweet.ts",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "vite:esbuild"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import { APIEvent, json } from \"solid-start\";\nimport cookie from \"cookie\";\n\nasync function streamToString(stream: ReadableStreamDefaultReader<Uint8Array>) {\n    const chunks = [];\n    let isDone = false;\n\n    while (!isDone) {\n        const result = await stream.read()\n        isDone = result.done\n        if (result.value) chunks.push(Buffer.from(result.value));\n    }\n\n    return Buffer.concat(chunks).toString('utf-8')\n}\n\nexport const POST = async ({ params, request, env }: APIEvent) => {\n    const reader = request.body!.getReader();\n    const { text } = JSON.parse(await streamToString(reader));\n\n    const twitterRes = await fetch(\"https://api.twitter.com/2/tweets\", {\n        method: \"POST\",\n        headers: {\n            Authorization: `Bearer ${JSON.parse(decodeURIComponent(cookie.parse(request.headers.get('cookie')!).token)).value}`,\n            \"Content-Type\": \"application/json\",\n        },\n        body: JSON.stringify({\n            text,\n        }),\n    }).then(r => r.json())\n\n    return json(twitterRes);\n}",
+      "start": 1669937513994,
+      "end": 1669937514081
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "import { json } from \"solid-start\";\nimport cookie from \"cookie\";\nasync function streamToString(stream) {\n  const chunks = [];\n  let isDone = false;\n  while (!isDone) {\n    const result = await stream.read();\n    isDone = result.done;\n    if (result.value)\n      chunks.push(Buffer.from(result.value));\n  }\n  return Buffer.concat(chunks).toString(\"utf-8\");\n}\nexport const POST = async ({ params, request, env }) => {\n  const reader = request.body.getReader();\n  const { text } = JSON.parse(await streamToString(reader));\n  const twitterRes = await fetch(\"https://api.twitter.com/2/tweets\", {\n    method: \"POST\",\n    headers: {\n      Authorization: `Bearer ${JSON.parse(decodeURIComponent(cookie.parse(request.headers.get(\"cookie\")).token)).value}`,\n      \"Content-Type\": \"application/json\"\n    },\n    body: JSON.stringify({\n      text\n    })\n  }).then((r) => r.json());\n  return json(twitterRes);\n};\n",
+      "start": 1669937514081,
+      "end": 1669937514112
+    }
+  ],
+  "virtual": false
+}

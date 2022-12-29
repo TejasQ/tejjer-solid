@@ -1,0 +1,23 @@
+{
+  "id": "/Users/tejas/Sites/LAB/tejjer/node_modules/.pnpm/solid-start@0.2.6_i2cnpwj3ojjdnkycik5yjsstli/node_modules/solid-start/types.ts",
+  "deps": [],
+  "plugins": [
+    "vite:load-fallback",
+    "vite:esbuild"
+  ],
+  "transforms": [
+    {
+      "name": "vite:load-fallback",
+      "result": "import type { Debugger } from \"debug\";\nimport type { Component } from \"solid-js\";\n\ndeclare global {\n  interface Window {\n    DEBUG: Debugger;\n    _$HY: {\n      island(path: string, comp: Component): void;\n      islandMap: { [path: string]: Component };\n      hydrateIslands(): void;\n      fe(id: string): void;\n    };\n  }\n\n  interface RequestInit {\n    duplex?: \"half\";\n  }\n}\n\ntype Adapter = {\n  start(): void;\n  build(): void;\n  dev?(): void;\n};\n\nexport type StartOptions = {\n  adapter: string | Adapter;\n  appRoot: string;\n  routesDir: string;\n  ssr: boolean;\n  islands: boolean;\n  islandsRouter: boolean;\n  lazy: boolean;\n  prerenderRoutes: string[];\n  inspect: boolean;\n  pageExtensions: string[];\n  root: string;\n  clientEntry: string;\n  serverEntry: string;\n  appRootFile: string;\n};\n\nexport {};\n",
+      "start": 1669937513939,
+      "end": 1669937513964
+    },
+    {
+      "name": "vite:esbuild",
+      "result": "export {};\n",
+      "start": 1669937513964,
+      "end": 1669937513967
+    }
+  ],
+  "virtual": false
+}
